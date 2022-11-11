@@ -14,12 +14,11 @@ header{
     align-items: center;
 }
 
-header.logo .img{
+header a img.logo{
     position: relative;
-    width: 100px;
+    width: 105px;
     padding: 10px;
 }
-
 
 li{
     display: inline-block;
