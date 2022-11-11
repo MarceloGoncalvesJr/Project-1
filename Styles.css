@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(233, 230, 230);
+    color: #3e4095;
+    font-family: "Cabin";
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header.logo .img{
+    position: relative;
+    width: 100px;
+    padding: 10px;
+}
+
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color:#3e4095
+}
+
+a:hover{
+    color:rgb(132,14,201);
+    transition: 0.3s all;
+}
+
+#cont-btn{
+    border: 2px solid;
+    color :blue;
+    padding:10px;
+    border-radius: 15px;
+}
+
+#cont-btn:hover{
+  background-color: #3e4095;
+  color:white
+}
+    
+
+h1{
+    font-weight: 600;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 38px;
+    line-height: 18px;
+    font-family: "Cabin";
+}
+
+span{
+    font-size: 56px;
+    font-feature-settings: "mkmk";
+    color: rgb(250, 234, 12);
+
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: "Cabin";
+    justify-content: center;
+}
+
+.bio img{
+  width: 600px;
+  padding: 15px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+   cursor: pointer;
+    background-color: #3e4095;
+    color:white
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border:none;
+    font-size: 15px;
+}
+
+
+
+ 
+
+
